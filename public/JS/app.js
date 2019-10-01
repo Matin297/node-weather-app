@@ -1,5 +1,3 @@
-console.log('client side javascript is loaded!');
-
 $(() => {
     let $weatherInput = $('input');
     let messageOne = $('#message-1');
