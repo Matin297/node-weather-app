@@ -25,7 +25,9 @@ $(() => {
                         messageTwo.html(`${forecast.dailySummary} <br>
                         ${forecast.todayDailySummary} <br>
                         temperature: ${forecast.temp}&#x2103; <br>
-                        Chances of rain: ${forecast.precipProbability}%`);
+                        Chances of rain: ${forecast.precipProbability}% <br>
+                        High Temperature: ${forecast.highTemp}&#x2103; <br>
+                        Low Temperature: ${forecast.lowTemp}&#x2103;`);
                     }
                 })
         })
